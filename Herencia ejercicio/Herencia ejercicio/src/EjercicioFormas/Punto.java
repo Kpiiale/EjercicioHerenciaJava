@@ -14,6 +14,9 @@ public class Punto {
     }
     public double getMx() { return mx;}
     public double getMy() {return my;}
+    
+    public double calcularPerimetro(){return 0; }
+    public double calcularArea(){ return 0; }
 
     @Override
     public String toString() {
@@ -21,4 +24,3 @@ public class Punto {
                         "\nY='" + my + '\'';
     }
 }
-
